@@ -1,0 +1,213 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?5b5bb296732f19654f9b001c0955cc2a") format("truetype"),
+url("./flaticon.woff?5b5bb296732f19654f9b001c0955cc2a") format("woff"),
+url("./flaticon.woff2?5b5bb296732f19654f9b001c0955cc2a") format("woff2"),
+url("./flaticon.eot?5b5bb296732f19654f9b001c0955cc2a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?5b5bb296732f19654f9b001c0955cc2a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "alarm": "\f101",
+    "location": "\f102",
+    "share": "\f103",
+    "right-arrow": "\f104",
+    "search": "\f105",
+    "right-arrow-1": "\f106",
+    "right-arrow-2": "\f107",
+    "download": "\f108",
+    "star": "\f109",
+    "star-half-empty": "\f10a",
+    "traffic-lights": "\f10b",
+    "email": "\f10c",
+    "send": "\f10d",
+    "chevron": "\f10e",
+    "diagonal-arrow": "\f10f",
+    "magnifier": "\f110",
+    "call": "\f111",
+    "driving-school": "\f112",
+    "exam": "\f113",
+    "steering-wheel": "\f114",
+    "information-button": "\f115",
+    "slippery-road": "\f116",
+    "driver-license": "\f117",
+    "protection": "\f118",
+    "happy": "\f119",
+    "shopping-cart": "\f11a",
+    "online-education": "\f11b",
+    "play-button": "\f11c",
+    "quotes": "\f11d",
+    "telephone": "\f11e",
+    "pdf": "\f11f",
+    "clock": "\f120",
+    "mission": "\f121",
+    "target": "\f122",
+    "play-button-1": "\f123",
+    "driver": "\f124",
+    "dollar-symbol": "\f125",
+    "car": "\f126",
+    "cone": "\f127",
+    "overtime": "\f128",
+    "event": "\f129",
+    "crossed-arrows": "\f12a",
+    "share-1": "\f12b",
+    "pin": "\f12c",
+    "quote": "\f12d",
+    "link": "\f12e",
+    "checkbox-mark": "\f12f",
+);
+
+.flaticon-alarm:before {
+    content: map-get($flaticon-map, "alarm");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-share:before {
+    content: map-get($flaticon-map, "share");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-right-arrow-1:before {
+    content: map-get($flaticon-map, "right-arrow-1");
+}
+.flaticon-right-arrow-2:before {
+    content: map-get($flaticon-map, "right-arrow-2");
+}
+.flaticon-download:before {
+    content: map-get($flaticon-map, "download");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-star-half-empty:before {
+    content: map-get($flaticon-map, "star-half-empty");
+}
+.flaticon-traffic-lights:before {
+    content: map-get($flaticon-map, "traffic-lights");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-send:before {
+    content: map-get($flaticon-map, "send");
+}
+.flaticon-chevron:before {
+    content: map-get($flaticon-map, "chevron");
+}
+.flaticon-diagonal-arrow:before {
+    content: map-get($flaticon-map, "diagonal-arrow");
+}
+.flaticon-magnifier:before {
+    content: map-get($flaticon-map, "magnifier");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-driving-school:before {
+    content: map-get($flaticon-map, "driving-school");
+}
+.flaticon-exam:before {
+    content: map-get($flaticon-map, "exam");
+}
+.flaticon-steering-wheel:before {
+    content: map-get($flaticon-map, "steering-wheel");
+}
+.flaticon-information-button:before {
+    content: map-get($flaticon-map, "information-button");
+}
+.flaticon-slippery-road:before {
+    content: map-get($flaticon-map, "slippery-road");
+}
+.flaticon-driver-license:before {
+    content: map-get($flaticon-map, "driver-license");
+}
+.flaticon-protection:before {
+    content: map-get($flaticon-map, "protection");
+}
+.flaticon-happy:before {
+    content: map-get($flaticon-map, "happy");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon-map, "shopping-cart");
+}
+.flaticon-online-education:before {
+    content: map-get($flaticon-map, "online-education");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-quotes:before {
+    content: map-get($flaticon-map, "quotes");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-pdf:before {
+    content: map-get($flaticon-map, "pdf");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-mission:before {
+    content: map-get($flaticon-map, "mission");
+}
+.flaticon-target:before {
+    content: map-get($flaticon-map, "target");
+}
+.flaticon-play-button-1:before {
+    content: map-get($flaticon-map, "play-button-1");
+}
+.flaticon-driver:before {
+    content: map-get($flaticon-map, "driver");
+}
+.flaticon-dollar-symbol:before {
+    content: map-get($flaticon-map, "dollar-symbol");
+}
+.flaticon-car:before {
+    content: map-get($flaticon-map, "car");
+}
+.flaticon-cone:before {
+    content: map-get($flaticon-map, "cone");
+}
+.flaticon-overtime:before {
+    content: map-get($flaticon-map, "overtime");
+}
+.flaticon-event:before {
+    content: map-get($flaticon-map, "event");
+}
+.flaticon-crossed-arrows:before {
+    content: map-get($flaticon-map, "crossed-arrows");
+}
+.flaticon-share-1:before {
+    content: map-get($flaticon-map, "share-1");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon-map, "quote");
+}
+.flaticon-link:before {
+    content: map-get($flaticon-map, "link");
+}
+.flaticon-checkbox-mark:before {
+    content: map-get($flaticon-map, "checkbox-mark");
+}
